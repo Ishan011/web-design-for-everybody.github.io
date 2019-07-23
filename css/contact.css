@@ -1,0 +1,95 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/*
+ * Base structure
+ */
+
+body {
+background-image: url(../images/contact.jpg);
+background-size: cover;
+}
+
+.navbar {
+  position: sticky;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.nav-item {
+  text-align: center;
+  color: #ccc;
+  padding-bottom: 2px; 
+  font-family: 'Permanent Marker',sans-serif;
+}
+.nav-item:hover {
+  color: #fff;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0px; 
+}
+.navbar-toggler {
+  background-color: rgba(0,0,0,0.4);
+  }
+  .navbar-toggler-icon {
+    background-color: gold;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+
+  h1{
+    text-align: center;
+    color: gold;
+    font-family: 'Concert One',sans-serif;
+  	margin-bottom: 25px;
+  }
+  h4 {
+  	text-align: center;
+  }
+  img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .solid {
+    background-color: rgba(0,0,0,0.9);
+  }
+
+.row {
+	margin: 0 120px;
+}
+.col-md-6 {
+	border: 1px solid aqua;
+	padding: 5px 0;
+  color: white;
+}
+.col-md-6:hover {
+  background-color: #fff;
+  color: black;
+}
+@media only screen and (max-width : 450px) 
+{
+	img {
+		width: 100px;
+		height: 100px;
+	}
+	.col-md-6 {
+		padding: 10px 35px;
+		margin: 10px;
+	}
+	.row {
+		margin: 0px auto;
+	}	
+  .nav-item>.nav-link:hover{
+    color: teal;
+    border: none;
+  }
+ 
+}

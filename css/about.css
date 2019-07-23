@@ -1,0 +1,90 @@
+/*
+ * Globals
+ */
+body {
+  background-color: #212529;
+background: linear-gradient(141deg, #000000 0%,#582080  51%, #2cb5e8 75%);
+}
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/*
+ * Base structure
+ */
+
+.navbar {
+  position: sticky;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.nav-item {
+  text-align: center;
+  color: #ccc;
+  padding-bottom: 2px; 
+  font-family: 'Permanent Marker',sans-serif;
+}
+.nav-item:hover {
+  color: #fff;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0px; 
+}
+.navbar-toggler {
+  background-color: rgba(0,0,0,0.4);
+  }
+  .navbar-toggler-icon {
+    background-color: gold;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  h1{
+    text-align: center;
+    color: gold;
+    font-family: 'Concert One',sans-serif;
+  }
+  .solid {
+    background-color: rgba(0,0,0,0.9);
+  }
+  .card-header {
+    text-align: center; 
+    color: orange;
+    font-family: 'Fresca',sans-serif;
+    background-color: rgba(0,0,0,0.6);
+  }
+  .main-intro {
+    background-color: rgba(0,0,0,0.6);
+  }
+  .card-body {
+    background-color: rgba(0,0,0,0.3);
+    min-height: 280px;
+  }
+  p{
+    color: #fff;
+    font-family: 'Cookie',cursive;
+    font-size: 22px;
+  }
+  .row {
+    margin: 30px;
+  }
+
+ @media only screen and (min-width: 401px) and (max-width: 450px)
+{
+  .nav-item>.nav-link:hover{
+    color: teal;
+    border: none;
+  }
+ 
+} 
+
+@media only screen and (min-width: 451px) and (max-width: 1200px)
+{
+  .nav-item>.nav-link:hover{
+    color: teal;
+    border: none;
+  }
+ 
+}

@@ -1,0 +1,73 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+body,html {
+background-image: url('../images/skillbg.jpg');
+background-color: rgba(0,0,0,0.6);
+background-size: cover;
+}
+.navbar {
+  position: sticky;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.nav-item {
+  text-align: center;
+  color: #ccc;
+  padding-bottom: 2px; 
+  font-family: 'Permanent Marker',sans-serif;
+}
+.nav-item:hover {
+  color: #fff;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0px; 
+}
+.navbar-toggler {
+  background-color: rgba(0,0,0,0.4);
+  }
+  .navbar-toggler-icon {
+    background-color: gold;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  h1{
+    text-align: center;
+    color: gold;
+    font-family: 'Concert One',sans-serif;
+  }
+  h4 {
+    text-align: center;
+    color: #fff;
+  }
+  .row {
+    margin: 30px;
+  }
+  .skill {
+    border: 1px solid aqua;
+    padding: 40px 0px; 
+  }
+
+@media only screen and (max-width: 450px)
+{
+ .nav-item>.nav-link:hover{
+    color: teal;
+    border: none;
+  }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 801px)
+{
+  .nav-item>.nav-link:hover{
+    color: teal;
+    border: none;
+  }
+}

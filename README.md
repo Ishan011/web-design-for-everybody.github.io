@@ -1,2 +1,2 @@
-# web-design-for-everybody.github.io
-This is my submission of Michigan University's "Web Design For Everybody Capstone" provided by Coursera.
+# coursera-capstone.github.io
+My submission for Michigan University's "Web design for everybody" capstone project provided by Coursera
